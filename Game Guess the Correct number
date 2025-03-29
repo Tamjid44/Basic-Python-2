@@ -1,0 +1,12 @@
+import random
+num=random.randint(1,10)
+print("Guess a number between 1 and 10")
+while True:
+  x=int(input())
+  if(x<num):
+    print("please select higher number ")
+  if(x>num):
+    print("please select lower number ")
+  if(x==num):
+    print("you guess correct number = ", x)
+    break
