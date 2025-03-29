@@ -1,0 +1,8 @@
+#----Iterating a list of numbers-----
+print('List of some numbers in a Range')
+x = range(0, 11)
+for num in x:
+  print(num, end='\n')
+print('Numbers list using just For command')
+for i in range(14):
+  print(i)
