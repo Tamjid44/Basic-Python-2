@@ -1,0 +1,23 @@
+my_string = "Hello, World!"
+
+# Indexing
+print("First character:", my_string[0])
+
+# Slicing (from index 0 to 4, exclusive of 5)
+print("Substring [0:5]:", my_string[0:5])
+
+# String methods
+print("Uppercase:", my_string.upper())
+print("Lowercase:", my_string.lower())
+print("Replace 'World' with 'Python':", my_string.replace("World", "Python"))
+
+# Concatenation
+string_a = "Hello"
+string_b = "Python"
+concatenated = string_a + " " + string_b
+print("Concatenated:", concatenated)
+
+# Splitting a string
+split_example = "apple,banana,cherry"
+split_list = split_example.split(",")
+print("Splitted list:", split_list)
