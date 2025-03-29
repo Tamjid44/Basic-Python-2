@@ -1,0 +1,11 @@
+print("Using break:")
+for i in range(1, 10):
+    if i == 5:
+        break  # Stop the loop when i is 5
+    print(i)
+
+print("\nUsing continue:")
+for i in range(1, 10):
+    if i == 5:
+        continue  # Skip the rest of this loop iteration when i is 5
+    print(i)
