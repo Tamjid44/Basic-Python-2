@@ -14,3 +14,10 @@ print('Declared the both variable')
 if a>b:
   print('a is bigger')
 else: print('b is bigger')
+
+##Another way
+a = 2.5
+b = 3.34
+if a>b:
+  print('a is bigger')
+else: print('b is bigger')
