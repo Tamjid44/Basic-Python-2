@@ -1,0 +1,10 @@
+#---Practice on Arithmatic Operations-----
+a = 20
+b = 3
+print('Addition = ', a + b)
+print('Substraction = ', a - b)
+print('Multiplication = ', a * b)
+print('Division = ', float(a / b))
+print('Floor Division = ', a // b)  #---It's the ভাগফল---
+print('Modulus = ', a % b)
+print('Exponent = ', a ** b)
