@@ -1,0 +1,8 @@
+###---Practice 9----
+#9.	Demonstrate operator precedence by calculating the value of the expression: 5 + 3 * 2 - 8 / 4.
+x = 5 + 3 * 2 - 8 / 4
+#Using operator precedence
+#Using Parenthesis
+#5 + (3 * 2) - (8 / 4)
+#5 + 6 - 2
+print('5 + 3 * 2 - 8 / 4 = ', x)
