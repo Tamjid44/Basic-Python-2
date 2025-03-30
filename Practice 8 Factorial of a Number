@@ -1,0 +1,9 @@
+##---Practice 8----
+#8.	Write a Python program to calculate the factorial of a number using a while loop.
+x = int(input())
+factorial = 1
+i = x
+while i > 1:
+  factorial *= i
+  i -= 1
+print(f"The Factorial of {x} is = ", factorial)
