@@ -1,0 +1,7 @@
+#---Practice 7----
+#7.	Create a program that takes a string as input and prints whether it starts with the letter 'A' (case insensitive).
+x = str(input())
+if x.upper().startswith('A'):
+ print('The string starts with A')
+else:
+  print("The string doesnot start with A")
