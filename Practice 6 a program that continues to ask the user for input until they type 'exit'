@@ -1,0 +1,8 @@
+#---Practice 6----
+#6.	Write a program that continues to ask the user for input until they type 'exit'. Use a while loop and a break statement.
+print('Please input a Number')
+while True:
+ x = input()
+ if x == 'exit':
+  print('Exiting the program')
+  break 
