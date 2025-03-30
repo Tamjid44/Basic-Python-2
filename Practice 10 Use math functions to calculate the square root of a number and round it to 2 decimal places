@@ -1,0 +1,6 @@
+####---Practice 10----
+#10.	Use math functions to calculate the square root of a number and round it to 2 decimal places. Take the number as input from the user.
+import math
+print('Insert a number = ')
+x = float(input())
+print(f'Square root of {x} is = ', round(math.sqrt(x),2))
