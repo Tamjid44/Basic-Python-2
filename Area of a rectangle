@@ -1,0 +1,6 @@
+#---Practice 4----
+#4.	Write a Python program that calculates the area of a rectangle. Take length and width as input from the user.
+length = int(input())
+width = int(input())
+area = length*width
+print('Area of the rectangle = ', area)
